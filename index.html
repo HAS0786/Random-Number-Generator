@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sessinoal Marks Generator</h1>
+        <!-- form is used to take the Inputs -->
+        <form id="numberForm">
+            <!-- label for Roll-Number  -->
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" placeholder="Enter the Roll No" required>
+
+            <!-- label for Percentage Marks  -->
+
+            <label for="percentage">Percentage of Marks:</label>
+            <input type="number" id="percentage" placeholder="Enter the Percentage Mentioned on Paper" min="0" max="100"
+                required>
+
+                <!-- button to submit -->
+            <button type="submit">Add Student Data</button>
+        </form>
+
+        <!-- here in this Div result of each Enter studnet is show -->
+        <div id="result"></div>
+
+        <!-- This button is show to Downlaod the csv file -->
+        <button id="downloadBtn" style="display:none;">Download CSV</button>
+    </div>
+
+    <!-- add the JS file  -->
+    <script src="js.js"></script>
+</body>
+
+</html>

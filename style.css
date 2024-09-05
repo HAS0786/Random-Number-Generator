@@ -1,6 +1,7 @@
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #187794af;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5); /* Gradient colors */
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,36 +10,40 @@ body {
     height: 100vh;
 }
 
+/* Container Styles */
 .container {
-    background: #95a3b957;
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
+/* Header Styles */
 h1 {
     text-align: center;
     color: #333;
 }
 
+/* Label Styles */
 label {
     display: block;
     margin-bottom: 5px;
     color: #333;
 }
 
+/* Input Field Styles */
 input {
     width: 100%;
-    
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    color: #fff;
-    background: transparent;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7); /* Soft white background for input */
 }
 
+/* Button Styles */
 button {
     width: 100%;
     padding: 10px;
@@ -54,6 +59,7 @@ button:hover {
     background-color: #218838;
 }
 
+/* Result Text Styles */
 #result {
     margin-top: 20px;
     font-size: 18px;
